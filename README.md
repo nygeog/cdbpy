@@ -6,15 +6,15 @@ An un-sanctioned **CartoDB** Python Wrapper for Geoprocessing with **PostGIS** *
 	import cdbpy
 
 	username = '<CartoDB Username>'
-	apikey = '<CartoDB API Key>' 
+	apikey   = '<CartoDB API Key>' 
 
-Or use .gitignore and save data in **\_secret_info.py**
+Or use [.gitignore](#gitignore) and save data in **\_secret_info.py**
 
 	import _secret_info
 	import cdbpy
 	
-	cdbU = _secret_info.cartoDBusername
-	cdbK = _secret_info.cartoDBapikey
+	username = _secret_info.cartoDBusername
+	apikey   = _secret_info.cartoDBapikey
 
 ##List Functions:
 
@@ -26,3 +26,16 @@ Or use .gitignore and save data in **\_secret_info.py**
 
 
 ![logo](logo/cartodb-arcpy-wrapper-logo.png)
+
+
+##gitignore<a name="gitignore"></a>
+gitignore is a file you store in your repo, name the file **.gitignore**. Yes, with the **.** starting the file extension, with no file name.
+
+	# Secret Python files #
+	###################
+	*_secret_info.py
+	*.pyc
+	
+	# JSON files #
+	###################
+	*test.json
