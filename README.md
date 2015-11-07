@@ -1,9 +1,6 @@
 #CdbPy
-An un-sanctioned **CartoDB** Python Wrapper for Geoprocessing with **PostGIS** *SQL* created with the intent of helping ease **ArcPy** users into **CartoDB** and **PostGIS**.
+An un-sanctioned **[CartoDB](https://cartodb.com/)** Python Wrapper for Geoprocessing with **[PostGIS](http://postgis.net/)** *SQL* created with the intent of helping ease **[ArcPy](http://help.arcgis.com/en/arcgisdesktop/10.0/help/index.html#//000v000000v7000000.htm)** users into **CartoDB** and **PostGIS**.
 
-* [CartoDB](https://cartodb.com/)
-* [PostGIS](http://postgis.net/)
-* [ArcPy](http://help.arcgis.com/en/arcgisdesktop/10.0/help/index.html#//000v000000v7000000.htm)
 
 ##Importing CdbPy Username and API Key
 	
