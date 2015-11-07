@@ -1,5 +1,7 @@
 #CdbPy
-A **CartoDB** Python Wrapper for Geoprocessing with **PostGIS** *SQL* created with the intent of helping ease **ArcPy** users into **CartoDB** and **PostGIS** 
+An un-sanctioned **CartoDB** Python Wrapper for Geoprocessing with **PostGIS** *SQL* created with the intent of helping ease **ArcPy** users into **CartoDB** and **PostGIS** 
+
+##List Functions:
 
 ####Test
 `printTest(inText)`
