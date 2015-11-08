@@ -1,3 +1,8 @@
+ ##   ###   ###    ###  #   #
+#     #  #  #  #   #  #  # #
+#     #  #  ###    ###    #
+#     #  #  #  #   #      #
+ ##   ###   ###    #      #
 import urllib
 import urllib2
 import time
@@ -16,7 +21,9 @@ def createTable(table_name,username,apikey): #add a field for a dictionary of fi
 	    	response = urllib2.urlopen(req)
 	    	print '-' * (pauser + 1)
 	    	time.sleep(2)
-    
+  
+#def addPoints(table_name):
+
 # def buffer(in_buffer,buffer_dist,ou_buffer,username,apikey):  	
 # 	"CREATE TABLE latlngtablebuffer_"+fd+" AS SELECT ST_Buffer(the_geom_webmercator, "+bufDist+") AS the_geom_webmercator, cartodb_id, cdbawcensusuid FROM latlngtable_"+fd+"",
 #     "SELECT cdb_cartodbfytable('latlngtablebuffer_"+fd+"');",
