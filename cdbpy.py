@@ -28,7 +28,7 @@ def buffer(in_buffer,buffer_dist,ou_buffer,username,apikey):
 	url = "https://%s.cartodb.com/api/v1/sql" % username
 	insertList = ["CREATE TABLE "+ou_buffer+" AS SELECT ST_Buffer(the_geom_webmercator, "+buffer_dist+") AS * FROM "+in_buffer, #the_geom_webmercator, cartodb_id, cdbawcensusuid FROM latlngtable_"+fd+"",
     "SELECT cdb_cartodbfytable('"+ou_buffer+"');"]
-    for pauser, insert in enumerate(insertList): 
+	for pauser, insert in enumerate(insertList): 
 		params = {'api_key' : apikey,'q' : insert}  
 	    	print insert
 	    	req = urllib2.Request(url, urllib.urlencode(params))

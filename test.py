@@ -8,4 +8,4 @@ cdbK = _secret_info.cartoDBapikey
 
 cdbpy.printTest("Let's try the")
 
-cdbpy.createTable("createTableTEST996",cdbU,cdbK)
+cdbpy.createTable("NEWTABLE20151119",cdbU,cdbK)
